@@ -1,4 +1,4 @@
-# Frontend Mentor - Four card feature section
+# This is my take on the Frontend Mentor - Four card feature section
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
