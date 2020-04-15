@@ -1,6 +1,20 @@
 body {
     font-family: poppins;
-    /* background-color: hsl(0, 0%, 98%); */
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(234, 12%, 34%);
+}
+ a:hover {
+     color: hsl(0, 78%, 62%);
+ }
+
+img {
+    padding: 5px;
+    margin-top: 20px;
+    float: right;
 }
 
 .title {
@@ -24,7 +38,7 @@ body {
  }
 
  .main {
-     margin: 4%;
+     margin: 3%;
  }
 
  .container {
@@ -36,18 +50,44 @@ body {
  }
 
  .row {
-     margin: 5px;
+     margin: 15px;
      display: flex;
      flex-direction: row;
-     justify-content: space-around;
+     justify-content: center;
      align-items: center;
  }
 
  .column {
      margin: 5px;
+     width: auto;
      align-self: center;
  }
 
  .card {
-    
+     background-color: white;
+     border-radius: 5px;
+     height: 200px;
+     width: 350px;
+     padding: 15px;
+     margin: 20px 25px;
+     box-shadow: 0 2px 15px 1px hsl(229, 6%, 66%);
+ }
+
+ h4 {
+     font-size: 18px;
+     font-weight: 600;
+     color: hsl(234, 12%, 34%);
+     margin: 0;
+     padding: 0;
+ }
+
+ .card-text {
+     text-align: left;
+ }
+
+ footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
  }
