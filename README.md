@@ -1,5 +1,7 @@
 # This is my take on the Frontend Mentor - Four card feature section
 
+Since I am not very good I challenged myself to use CSS Flexbox and HTML only.
+
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
