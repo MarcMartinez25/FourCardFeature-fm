@@ -100,7 +100,7 @@ footer {
     }
 
     footer {
-        margin-top: 25px;
+        margin: 25px 0;
         display: block;
         position: relative;
     }
